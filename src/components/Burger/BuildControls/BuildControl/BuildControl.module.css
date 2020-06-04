@@ -1,0 +1,61 @@
+.BuildControl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.BuildControl .Label{
+    font-weight: 600;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.BuildControl button{
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+}
+
+.BuildControl button:hover{
+    box-shadow: 2px 2px 3px rgb(80, 66, 66);
+}
+
+.BuildControl button:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+.BuildControl button:disabled{
+    cursor: no-drop;
+    background-color: rgb(211, 216, 216);
+}
+
+.BuildControl button:disabled:hover{
+    box-shadow: none;
+}
+
+.BuildControl button:disabled:active{
+    transform: none;
+}
+
+.BuildControl .Add{
+    background-color: rgb(49, 212, 104);
+}
+
+
+.BuildControl .Remove{
+    background-color: rgb(252, 83, 41);
+}
+
+.BuildControl input{
+    border: none;
+    width: 20px;
+    padding: 5px 10px;
+}

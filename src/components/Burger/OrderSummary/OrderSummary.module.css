@@ -1,0 +1,32 @@
+.IngredientList{
+    list-style: none;
+    padding-left: 0;
+}
+
+.Continue, .Cancel{
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(122, 122, 122);
+    padding: 5px 8px;
+    margin-right: 10px;
+    user-select: none;
+}
+
+.Continue{
+    background-color: rgb(24, 221, 57);
+}
+
+.Cancel{
+    background-color: rgb(238, 75, 34);
+}
+
+.Continue:hover{
+    box-shadow: 1px 1px 3px rgb(4, 104, 37);
+}
+
+.Cancel:hover{
+    box-shadow: 1px 1px 3px rgb(104, 32, 4);
+}
