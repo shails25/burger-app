@@ -1,2 +1,3 @@
-const misc = (props) => props.children;
+const misc = (props) => props.children
+
 export default misc;
