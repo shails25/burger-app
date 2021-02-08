@@ -1,0 +1,27 @@
+.form_control{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form_control select, .form_control input, .form_control textarea{
+    width: 100%;
+    padding: 6px;
+    display: block;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #c8c6c6;
+}
+
+.form_control label{
+    font-size: 0.9rem;
+}
+
+
+.form_control input:focus, .form_control input:hover{
+    border: 1px solid #fce271;
+    background-color: #f7e594;
+}
+
+.error{
+    color: rgb(255, 77, 77);
+}
